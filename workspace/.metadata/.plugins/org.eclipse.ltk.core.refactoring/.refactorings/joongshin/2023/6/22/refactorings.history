@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;joongshin&apos;&#x0A;- Original project: &apos;joongshin&apos;&#x0A;- Original elements:&#x0A;     gosuJoin 복사본.js&#x0A;     gosuJoin 복사본.jsp&#x0A;     login 복사본.js&#x0A;     login 복사본.jsp" description="Delete elements" element1="WebContent/gosuJoin 복사본.js" element2="WebContent/gosuJoin 복사본.jsp" element3="WebContent/login 복사본.js" element4="WebContent/login 복사본.jsp" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="4" stamp="1685774266446" subPackages="false" version="1.0"/>
+</session>

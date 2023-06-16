@@ -1,0 +1,97 @@
+{\rtf1\ansi\ansicpg949\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset129 AppleSDGothicNeo-Regular;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 JSP \'b0\'b3\'b9\'df \'bc\'f8\'bc\'ad\
+   Table \'b8\'b8\'b5\'e9\'b1\'e2 -> VO \'b0\'b4\'c3\'bc \'b8\'b8\'b5\'e9\'b1\'e2 -> Mapper.xml \'b8\'b8\'b5\'e9\'b1\'e2 -> confing.xml\'bf\'a1 \'b5\'ee\'b7\'cf\'c7\'cf\'b1\'e2\
+   -> SQL\'b9\'ae \'c0\'db\'bc\'ba\'c7\'cf\'b1\'e2 -> DAO \'bc\'b1\'be\'f0\'c7\'cf\'b1\'e2 -> \'bc\'ad\'ba\'f1\'bd\'ba \'b0\'fc\'b7\'c3 \'b8\'de\'bc\'d2\'b5\'e5 \'bc\'b1\'be\'f0\'c7\'cf\'b1\'e2 -> Controller \'b8\'b8\'b5\'e9\'b1\'e2\
+   -> Controller\'bf\'a1 Action \'c0\'ce\'c5\'cd\'c6\'e4\'c0\'cc\'bd\'ba \'c1\'f6\'c1\'a4\'c7\'cf\'b1\'e2 -> Controller\'bf\'a1\'bc\'ad \'c0\'e7\'c1\'a4\'c0\'c7\'c7\'d1 execute(req, resp) \'b1\'b8\'c7\'f6\
+   -> Result(path, isRedirect) \'c5\'b8\'c0\'d4\'c0\'c7 \'c7\'ca\'b5\'e5\'b8\'a6 \'c3\'a4\'bf\'f6\'bc\'ad \'b8\'ae\'c5\'cf\'c7\'cf\'b1\'e2 \
+   -> FrontController\'bf\'a1\'bc\'ad \'be\'cb\'b8\'c2\'c0\'ba Controller\'c0\'c7 execute() \'bb\'e7\'bf\'eb -> Result\'b0\'b4\'c3\'bc\'bf\'a1 \'b4\'e3\'be\'c6\'c1\'d6\'b1\'e2\
+   -> \'ba\'d0\'b1\'e2 \'c4\'da\'b5\'e5 \'c7\'cf\'b4\'dc\'bf\'a1 result\'b0\'b4\'c3\'bc \'b4\'e3\'b1\'e4 path\'bf\'cd isRedirect\'b7\'ce \'be\'cb\'b8\'c2\'b0\'d4 \'c0\'c0\'b4\'e4\
+\
+\
+\
+a.jsp -> \'bf\'e4\'c3\'bb -> c.jsp\
+\'b7\'ce\'b1\'d7\'c0\'ce \'bc\'ad\'ba\'f1\'bd\'ba \'bf\'e4\'c3\'bb -> \'b8\'de\'c0\'ce\'c6\'e4\'c0\'cc\'c1\'f6\'b7\'ce \'c0\'cc\'b5\'bf\
+[Id, password](url\'b7\'ce \'c0\'db\'bc\'ba) -> web.xml\'b7\'ce \'c0\'cc\'b5\'bf\
+Url.member\'b7\'ce \'b3\'a1\'b3\'bb\'c1\'e0 -> frontcontroller\'b7\'ce \'c0\'cc\'b5\'bf(\'bc\'ad\'ba\'ed\'b8\'b4) do get, do post\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 frontcontroller \'b8\'b8\'be\'e0 \'b7\'ce\'b1\'d7\'c0\'ce\'c0\'cc\'b4\'cf? \'c7\'cf\'b8\'e9\'bc\'ad \'ba\'d0\'b1\'e2\'c3\'b3\'b8\'ae -> controller\
+Controller -> \'bc\'d2\'bd\'ba\'c4\'da\'b5\'e5 \'c0\'db\'bc\'ba\'c0\'ba \'b8\'de\'bc\'d2\'b5\'e5\'be\'c8\'bf\'a1\'bc\'ad \'c0\'db\'bc\'ba\'c7\'d8\'be\'df\'b5\'ca -> \'c5\'ac\'b7\'a1\'bd\'ba \'bb\'fd\'bc\'ba\'c7\'d8\'be\'df\'b5\'ca(\'bc\'ad\'ba\'ed\'b8\'b4\'c0\'cf \'c7\'ca\'bf\'e4\'be\'f8\'c0\'bd)\
+db\'b0\'fc\'b7\'c3 \'c4\'f5\'b8\'ae\'b8\'b8 \'b3\'aa\'b4\'a9\'b0\'ed\'bd\'cd\'c0\'bd-> Dao\
+Dao -> 1\'b4\'eb 1\
+mapper\
+\
+\
+\'c0\'fc\'bc\'db\'b9\'e6\'bd\'c4\
+Forword -> reqeust\'b0\'b4\'c3\'bc \'c0\'af\'c1\'f6, \
+Redirect -> request\'be\'f8\'c0\'bb\'b6\'a7(new), \'b3\'af\'b8\'ae\'b8\'e9\'be\'c8\'b5\'c9\'b6\'a7\'b4\'c2 \'c4\'f5\'b8\'ae\'bd\'ba\'c6\'ae\'b8\'b5 \'bb\'e7\'bf\'eb\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[jsp]\
+\
+   a.jsp --> b.jsp --> c.jsp\
+\
+   \'b0\'a2 \'c6\'e4\'c0\'cc\'c1\'f6\'b8\'b6\'b4\'d9 \'c7\'ca\'bf\'e4 \'bd\'c3 \'c0\'da\'b9\'d9 \'c4\'da\'b5\'e5\'b0\'a1 \'c0\'db\'bc\'ba\'b5\'c7\'b8\'e7, DB\'bf\'cd \'bf\'ac\'b0\'e1\'c7\'cf\'b4\'c2 \'c4\'da\'b5\'e5\'b5\'b5 jsp\'c6\'c4\'c0\'cf \'be\'c8\'bf\'a1\'bc\'ad\
+   \'b8\'f0\'b5\'ce \'c0\'db\'bc\'ba\'b5\'c8\'b4\'d9. \'ba\'d0\'b8\'ae\'b5\'c7\'be\'ee \'c0\'d6\'c1\'f6 \'be\'ca\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1 \'b1\'d4\'b8\'f0\'b0\'a1 \'c0\'db\'c0\'ba \'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae\'bf\'a1 \'be\'ee\'bf\'ef\'b8\'ae\'b4\'c2 \'b9\'e6\'bd\'c4\'c0\'cc\'b8\'e7,\
+   \'c4\'da\'b5\'e5\'b0\'a1 \'c8\'ae\'c0\'e5\'b5\'c9 \'bc\'f6\'b7\'cf \'b0\'a1\'b5\'b6\'bc\'ba\'c0\'cc \'b6\'b3\'be\'ee\'c1\'f6\'b0\'ed \'ba\'d0\'be\'f7\'b0\'fa \'c0\'af\'c1\'f6\'ba\'b8\'bc\'f6\'b0\'a1 \'c1\'c1\'c1\'f6 \'be\'ca\'b4\'d9.\
+\
+\'a2\'ba MVC\
+\
+[model1]\
+   a.jsp --> b.jsp --> c.jsp\
+         \'a1\'e9\
+      DAO.java\
+\
+   b.jsp\'bf\'a1\'bc\'ad dao\'b8\'a6 \'c8\'a3\'c3\'e2\'c7\'d4\'c0\'b8\'b7\'ce\'bd\'e1 \'c0\'da\'b9\'d9\'c4\'da\'b5\'e5\'b0\'a1 \'bc\'af\'c0\'cc\'b0\'d4 \'b5\'c8\'b4\'d9. \'bc\'b1\'be\'f0\'c0\'ba JAVA \'c6\'e4\'c0\'cc\'c1\'f6\'bf\'a1 \'b1\'b8\'c7\'f6\'c0\'cc \'b5\'c7\'be\'ee \'c0\'d6\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1\
+   jsp \'b3\'bb\'c0\'c7 JAVA \'c4\'da\'b5\'e5 \'be\'e7\'c0\'cc \'c1\'d9\'be\'ee\'b5\'e9\'c1\'f6\'b8\'b8 \'b0\'e1\'b1\'b9 \'bb\'e7\'bf\'eb\'c0\'ba jsp \'c6\'e4\'c0\'cc\'c1\'f6\'bf\'a1\'bc\'ad \'c7\'cf\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1\
+   Controller(DAO \'b8\'de\'bc\'d2\'b5\'e5\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'b0\'ed \'be\'ee\'b5\'f0 \'c6\'e4\'c0\'cc\'c1\'f6\'b7\'ce \'c0\'cc\'b5\'bf\'c7\'d2 \'c1\'f6)\'bf\'cd View\'b0\'a1 \'bc\'af\'c0\'cc\'b0\'d4 \'b5\'c8\'b4\'d9.\
+   \'c6\'e4\'c0\'cc\'c1\'f6\'b0\'a1 \'c8\'ae\'c0\'e5\'b5\'c9 \'bc\'f6\'b7\'cf \'c0\'af\'c1\'f6\'ba\'b8\'bc\'f6\'b0\'a1 \'c1\'c1\'c1\'f6 \'be\'ca\'b4\'d9. \'c7\'cf\'c1\'f6\'b8\'b8 \'bc\'b3\'b0\'e8\'b4\'c2 \'bd\'b1\'b4\'d9.\
+\
+[model2]\
+   a.jsp   -->   web.xml   -->   Front-Controller.java   ------------>   c.jsp\
+                  \'a1\'e9\
+               Controller.java\
+                   \'a1\'e9\
+               DAO.java\
+                \'a1\'e9\
+               DB\
+\
+   a.jsp\'bf\'a1\'bc\'ad \'b4\'d9\'c0\'bd \'c6\'e4\'c0\'cc\'c1\'f6\'b8\'a6 \'c0\'cc\'b5\'bf\'c7\'cf\'b1\'e2 \'c0\'fc \'c7\'ca\'bf\'e4\'c7\'d1 \'ba\'f1\'c1\'f6\'b4\'cf\'bd\'ba \'b7\'ce\'c1\'f7\'c0\'bb \'bf\'cf\'ba\'ae\'c7\'cf\'b0\'d4 \'ba\'d0\'b8\'ae\'c7\'cf\'bf\'a9 \'b0\'fc\'b8\'ae\'c7\'d1\'b4\'d9.\
+   \'bb\'e7\'bf\'eb\'c0\'da\'b0\'a1 \'c1\'a4\'c0\'c7\'c7\'d1 \'c8\'ae\'c0\'e5\'c0\'da(.me, .bo, ...)\'b8\'a6 \'c6\'e4\'c0\'cc\'c1\'f6 \'c0\'cc\'b5\'bf \'c1\'d6\'bc\'d2(URL)\'bf\'a1 \'c0\'db\'bc\'ba\'c7\'cf\'b0\'d4 \'b5\'c7\'b8\'e9\
+   web.xml\'bf\'a1 \'b0\'a1\'bc\'ad \'b0\'e6\'b7\'ce\'b8\'a6 \'c3\'a3\'b4\'c2\'b4\'d9. web.xml\'bf\'a1 \'c6\'c4\'c0\'cf \'b0\'e6\'b7\'ce\'b8\'a6 \'c7\'cf\'b3\'aa\'be\'bf \'b8\'f0\'b5\'ce \'b8\'b8\'b5\'e9\'b0\'d4 \'b5\'c7\'b8\'e9\
+   \'c4\'da\'b5\'e5\'b0\'a1 \'b1\'e6\'be\'ee\'c1\'f6\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1 *.me\'bf\'cd \'b0\'b0\'c0\'cc \'b1\'d7\'b7\'ec\'c8\'ad\'bd\'c3\'c5\'b2 \'c8\'ae\'c0\'e5\'c0\'da\'b7\'ce \'bf\'e4\'c3\'bb\'c0\'bb \'c7\'cf\'b3\'aa\'c0\'c7 \'b0\'e6\'b7\'ce\'b7\'ce \'ba\'b8\'b3\'bb\'c1\'d6\'b5\'b5\'b7\'cf\
+   \'bc\'b3\'c1\'a4\'c7\'d8 \'b3\'f5\'b4\'c2\'b4\'d9.\
+   \'c0\'cc \'b0\'e6\'b7\'ce\'b8\'a6 \'be\'cb\'b8\'c2\'b4\'c2 Front-Controller.java \'b0\'e6\'b7\'ce\'b7\'ce \'bc\'b3\'c1\'a4\'c7\'d8 \'b3\'f5\'b4\'c2\'b4\'d9.\
+   Front-Controller\'bf\'a1\'bc\'ad\'b4\'c2 \'b5\'e9\'be\'ee\'bf\'c2 \'bf\'e4\'c3\'bb\'bf\'a1\'bc\'ad .me\'be\'d5\'c0\'c7 \'bf\'e4\'c3\'bb \'b8\'ed\'c0\'b8\'b7\'ce \'be\'ee\'b6\'b2 \'b7\'ce\'c1\'f7\'c0\'bb \'bc\'f6\'c7\'e0\'c7\'d2 \'c1\'f6\'b8\'a6\
+   \'c6\'c7\'b4\'dc\'c7\'cf\'b5\'b5\'b7\'cf \'ba\'d0\'b1\'e2\'c3\'b3\'b8\'ae\'b8\'a6 \'c7\'d1\'b4\'d9.\
+   \'ba\'f1\'c1\'f6\'b4\'cf\'bd\'ba \'b7\'ce\'c1\'f7\'c0\'bb Front-Controller\'bf\'a1\'bc\'ad \'c0\'db\'be\'f7\'c7\'cf\'b0\'d4 \'b5\'c7\'b8\'e9 \'b8\'b6\'c2\'f9\'b0\'a1\'c1\'f6\'b7\'ce \'c4\'da\'b5\'e5\'b0\'a1 \'b1\'e6\'be\'ee\'c1\'f6\'b0\'ed\
+   \'c0\'af\'c1\'f6\'ba\'b8\'bc\'f6 \'b9\'d7 \'c0\'e7\'bb\'e7\'bf\'eb\'c0\'cc \'be\'ee\'b7\'c6\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1 \'bf\'e4\'c3\'bb\'ba\'b0 Controller\'b8\'a6 \'b8\'b8\'b5\'e9\'be\'ee\'bc\'ad req\'bf\'cd resp\'b8\'a6 \'b9\'de\'c0\'bb\
+   \'b8\'de\'bc\'d2\'b5\'e5\'b8\'a6 \'bc\'b1\'be\'f0\'c7\'cf\'bf\'a9 \'b1\'b8\'c7\'f6\'c7\'d1\'b4\'d9. \'b5\'fb\'b6\'f3\'bc\'ad Controller\'be\'c8\'bf\'a1 \'bc\'b1\'be\'f0\'b5\'c8 \'b8\'de\'bc\'d2\'b5\'e5\'b4\'c2 \'b8\'f0\'b5\'e7 Controller\'bf\'a1\
+   \'b1\'b8\'c7\'f6\'c7\'d8\'be\'df \'c7\'cf\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1 \'c0\'ce\'c5\'cd\'c6\'e4\'c0\'cc\'bd\'ba\'b8\'a6 \'bc\'b1\'be\'f0\'c7\'cf\'bf\'a9 \'c3\'df\'bb\'f3\'b8\'de\'bc\'d2\'b5\'e5 \'c7\'fc\'c5\'c2\'b7\'ce \'bc\'b1\'be\'f0\'c7\'d8 \'b3\'f5\'b0\'ed\
+   \'b0\'a2 Controller\'bf\'a1 \'c1\'f6\'c1\'a4\'c7\'cf\'bf\'a9 \'b1\'b8\'c7\'f6\'c7\'cf\'b5\'b5\'b7\'cf \'c7\'d1\'b4\'d9.\
+   \'b8\'de\'bc\'d2\'b5\'e5 \'b3\'bb\'ba\'ce\'bf\'a1\'bc\'ad\'c0\'c7 DB\'bf\'ac\'bb\'ea \'c0\'db\'be\'f7\'b5\'e9\'c0\'ba \'b8\'f0\'b5\'ce DAO\'b7\'ce \'ba\'d0\'b8\'ae\'c7\'cf\'bf\'a9 \'bb\'e7\'bf\'eb\'c7\'d1\'b4\'d9.\
+   \'b3\'bb\'ba\'ce \'c0\'db\'be\'f7\'c0\'cc \'b8\'f0\'b5\'ce \'bf\'cf\'b7\'e1\'b5\'c7\'b8\'e9 \'c6\'e4\'c0\'cc\'c1\'f6\'b8\'a6 \'c0\'cc\'b5\'bf\'c7\'d2 \'b0\'cd\'c0\'ce\'c1\'f6, \'be\'ee\'b6\'b2 \'b9\'e6\'bd\'c4\'c0\'b8\'b7\'ce \'c7\'d2 \'b0\'cd\'c0\'ce\'c1\'f6, \'b1\'d7\'b8\'ae\'b0\'ed \'be\'ee\'b5\'f0\'b7\'ce\
+   \'c0\'cc\'b5\'bf\'c7\'d2 \'b0\'cd\'c0\'ce\'c1\'f6\'b8\'a6 \'b0\'e1\'c1\'a4\'c7\'d8\'bc\'ad \'b8\'ae\'c5\'cf\'c7\'d8\'be\'df \'c7\'d1\'b4\'d9. \'c0\'cc\'bf\'a1 \'b0\'fc\'b7\'c3\'b5\'c8 \'c7\'ca\'b5\'e5\'b8\'a6 \'c5\'ac\'b7\'a1\'bd\'ba\'b7\'ce \'b8\'b8\'b5\'e9\'be\'ee \'b3\'f5\'c0\'ba \'c8\'c4\
+   Controller\'be\'c8\'bf\'a1 \'bc\'b1\'be\'f0\'c7\'d1 \'b8\'de\'bc\'d2\'b5\'e5\'c0\'c7 \'b8\'ae\'c5\'cf\'c5\'b8\'c0\'d4\'c0\'b8\'b7\'ce \'c1\'f6\'c1\'a4\'c7\'cf\'bf\'a9 Front-Controller\'bf\'a1 \'b8\'ae\'c5\'cf\'c7\'d8\'c1\'d8\'b4\'d9.\
+   Front-Controller\'bf\'a1\'bc\'ad\'b4\'c2 \'c7\'d8\'b4\'e7 Controller \'b8\'de\'bc\'d2\'b5\'e5\'c0\'c7 \'b8\'ae\'c5\'cf \'b0\'aa\'bf\'a1 \'b4\'e3\'b1\'e4 \'b0\'e1\'b0\'fa\'bf\'a1 \'b8\'c2\'b0\'d4 \'c3\'b3\'b8\'ae\'c7\'d1 \'c8\'c4\
+   View\'b7\'ce \'c0\'cc\'b5\'bf\'c7\'cf\'b0\'d4 \'b5\'c8\'b4\'d9.\
+\
+   - redirect(request\'b0\'b4\'c3\'bc \'c3\'ca\'b1\'e2\'c8\'ad)\
+      request\'bf\'a1 \'be\'c6\'b9\'ab\'b0\'cd\'b5\'b5 \'b4\'e3\'c1\'f6 \'be\'ca\'be\'d2\'c0\'b8\'b8\'e9 \'bb\'e7\'bf\'eb\
+      \'a1\'d8 \'b8\'b8\'be\'e0 request\'bf\'a1 \'b9\'ab\'be\'f0\'b0\'a1 \'b4\'e3\'be\'d2\'c0\'b8\'b3\'aa redirect\'b7\'ce \'c0\'cc\'b5\'bf\'c7\'cf\'b0\'ed \'bd\'cd\'b4\'d9\'b8\'e9,\
+         request\'bf\'a1 \'b4\'e3\'c1\'f6 \'be\'ca\'b0\'ed, \'c4\'f5\'b8\'ae \'bd\'ba\'c6\'ae\'b8\'b5\'c0\'b8\'b7\'ce \'c0\'fc\'b4\'de\'c7\'cf\'b8\'e9 \'b5\'c8\'b4\'d9.\
+\
+   - forward(request\'b0\'b4\'c3\'bc \'c0\'af\'c1\'f6)\
+      request\'bf\'a1 \'b9\'ab\'be\'f0\'b0\'a1 \'b4\'e3\'be\'d2\'b4\'d9\'b8\'e9 \'bb\'e7\'bf\'eb}

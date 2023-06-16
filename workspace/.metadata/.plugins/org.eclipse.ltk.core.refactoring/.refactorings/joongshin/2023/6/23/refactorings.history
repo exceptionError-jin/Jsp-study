@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;joongshin&apos;&#x0A;- Original project: &apos;joongshin&apos;&#x0A;- Original elements:&#x0A;     password-change 복사본.js&#x0A;     password-change 복사본.jsp" description="Delete elements" element1="WebContent/password-change 복사본.js" element2="WebContent/password-change 복사본.jsp" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="2" stamp="1685861491380" subPackages="false" version="1.0"/>
+</session>
